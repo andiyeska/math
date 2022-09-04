@@ -1,0 +1,15 @@
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Operator.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Solution.java
+/home/andiy/foondamate2/src/main/java/com/example/math/service/equation/qudratic/none/GetEquationQuadraticNoneResponse.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Step.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Operation.java
+/home/andiy/foondamate2/src/main/java/com/example/math/service/equation/qudratic/none/GetEquationQuadraticNoneRequest.java
+/home/andiy/foondamate2/src/main/java/com/example/math/service/equation/qudratic/GetEquationQuadraticNoneInputBoundary.java
+/home/andiy/foondamate2/src/main/java/com/example/math/configuration/WebConfig.java
+/home/andiy/foondamate2/src/main/java/com/example/math/utility/StringUtil.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Postfix.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Variable.java
+/home/andiy/foondamate2/src/main/java/com/example/math/service/equation/qudratic/none/GetEquationQuadraticNoneUseCase.java
+/home/andiy/foondamate2/src/main/java/com/example/math/entity/Term.java
+/home/andiy/foondamate2/src/main/java/com/example/math/FoondamateApplication.java
+/home/andiy/foondamate2/src/main/java/com/example/math/controller/MathematicsController.java
