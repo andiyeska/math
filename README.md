@@ -78,9 +78,9 @@
                 {
                     "description": "Move terms with variable to left and digit to right",
                     "leftEquationBefore": "8x+12",
-                    "leftEquationAfter": "0",
+                    "leftEquationAfter": "12x",
                     "rightEquationBefore": "24-4x",
-                    "rightEquationAfter": "0",
+                    "rightEquationAfter": "12",
                     "leftOperationBefore": "8x+12-12+4x",
                     "leftOperationAfter": "12x",
                     "rightOperationBefore": "24-4x-12+4x",
@@ -89,9 +89,9 @@
                 {
                     "description": "Set variable coefficient to 1",
                     "leftEquationBefore": "12x",
-                    "leftEquationAfter": "0",
+                    "leftEquationAfter": "x",
                     "rightEquationBefore": "12",
-                    "rightEquationAfter": "0",
+                    "rightEquationAfter": "1",
                     "leftOperationBefore": "12x/12",
                     "leftOperationAfter": "x",
                     "rightOperationBefore": "12/12",
