@@ -1,7 +1,7 @@
 package com.example.math.controller;
 
-import com.example.math.service.equation.qudratic.none.GetEquationQuadraticNoneRequest;
-import com.example.math.service.equation.qudratic.none.GetEquationQuadraticNoneResponse;
+import com.example.math.service.equation.qudratic.non.GetEquationQuadraticNonRequest;
+import com.example.math.service.equation.qudratic.non.GetEquationQuadraticNonResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -25,11 +25,11 @@ public class MathematicsControllerTest {
     }
 
     @Test
-    void givenEquation_whenGetEquationQuadraticNoneSolution_shouldReturnSolution() {
-        GetEquationQuadraticNoneRequest request = new GetEquationQuadraticNoneRequest();
+    void givenEquation_whenGetEquationQuadraticNonSolution_shouldReturnSolution() {
+        GetEquationQuadraticNonRequest request = new GetEquationQuadraticNonRequest();
         request.setEquation("x-3=0");
 
-        GetEquationQuadraticNoneResponse response = restTemplate.postForObject(baseUrl + "/mathematics/equation/quadratic/none", request, GetEquationQuadraticNoneResponse.class);
+        GetEquationQuadraticNonResponse response = restTemplate.postForObject(baseUrl + "/mathematics/equation/quadratic/non", request, GetEquationQuadraticNonResponse.class);
 
         Assertions.assertEquals("3", response.getSolution().getTermByVariable().get("x").printFraction());
     }

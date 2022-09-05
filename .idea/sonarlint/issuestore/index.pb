@@ -1,8 +1,6 @@
 
 c
 3src/main/java/com/example/math/entity/Operator.java,0/a/0aef4d262af9569901d2c63f51e1b532d7216ac2
-c
-3src/test/java/com/example/math/entity/TermTest.java,b/7/b7af7db39ef5b64fc65be881cd2bfb1426379290
 f
 6src/test/java/com/example/math/entity/PostfixTest.java,5/3/53f2c6000eeb232becf36b0773b02ba7c66a0d13
 g
@@ -11,8 +9,6 @@ h
 8src/test/java/com/example/math/entity/OperationTest.java,4/e/4e70a13f61660506a1ceaa22c9c1cb49df349d2e
 c
 3src/main/java/com/example/math/entity/Variable.java,c/1/c13acd98bcdfe215d11ff211b8e91004e8c86c0f
-t
-Dsrc/main/java/com/example/math/controller/MathematicsController.java,4/b/4b143b2dd476c8efd2c9c2a8f40182bc10a1f389
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 “
@@ -29,3 +25,7 @@ _
 csrc/main/java/com/example/math/service/equation/qudratic/GetEquationQuadraticNoneInputBoundary.java,1/f/1f54a8c1179dc62e190b64477b73c3d61ae23b41
 b
 2src/main/java/com/example/math/entity/Postfix.java,e/3/e3326a5d9dabdc09e59b5592bf3c701c93106a10
+c
+3src/test/java/com/example/math/entity/StepTest.java,7/5/75aa1673a0dc89a32add8895bf7a411093213049
+g
+7src/test/java/com/example/math/entity/SolutionTest.java,4/f/4fda43a6b58e0dcbcb0a385cf4b2a32f41f0a250

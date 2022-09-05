@@ -1,8 +1,8 @@
 /home/andiy/foondamate2/src/test/java/com/example/math/entity/VariableTest.java
 /home/andiy/foondamate2/src/test/java/com/example/math/entity/OperationTest.java
 /home/andiy/foondamate2/src/test/java/com/example/math/entity/SolutionTest.java
+/home/andiy/foondamate2/src/test/java/com/example/math/service/GetEquationQuadraticNonUseCaseTest.java
 /home/andiy/foondamate2/src/test/java/com/example/math/entity/TermTest.java
-/home/andiy/foondamate2/src/test/java/com/example/math/service/GetEquationQuadraticNoneUseCaseTest.java
 /home/andiy/foondamate2/src/test/java/com/example/math/FoondamateApplicationTests.java
 /home/andiy/foondamate2/src/test/java/com/example/math/controller/MathematicsControllerTest.java
 /home/andiy/foondamate2/src/test/java/com/example/math/entity/StepTest.java

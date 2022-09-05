@@ -1,9 +1,9 @@
 com/example/math/FoondamateApplicationTests.class
+com/example/math/service/GetEquationQuadraticNonUseCaseTest.class
 com/example/math/entity/VariableTest.class
 com/example/math/entity/PostfixTest.class
 com/example/math/entity/StepTest.class
 com/example/math/controller/MathematicsControllerTest.class
-com/example/math/service/GetEquationQuadraticNoneUseCaseTest.class
 com/example/math/entity/OperationTest.class
 com/example/math/entity/SolutionTest.class
 com/example/math/entity/TermTest.class
