@@ -31,7 +31,7 @@ public class MathematicsControllerTest {
 
         GetEquationQuadraticNoneResponse response = restTemplate.postForObject(baseUrl + "/mathematics/equation/quadratic/none", request, GetEquationQuadraticNoneResponse.class);
 
-        Assertions.assertEquals("3", response.getSolution().getTermByVariable().get("x"));
+        Assertions.assertEquals("3", response.getSolution().getTermByVariable().get("x").printFraction());
     }
 
 }

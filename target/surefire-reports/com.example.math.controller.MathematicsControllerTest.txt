@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.math.controller.MathematicsControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.88 s - in com.example.math.controller.MathematicsControllerTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.795 s <<< FAILURE! - in com.example.math.controller.MathematicsControllerTest
+givenEquation_whenGetEquationQuadraticNoneSolution_shouldReturnSolution  Time elapsed: 0.231 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.String@6ca372ef<3> but was: com.example.math.entity.Term@3ebe4ccc<3>
+	at com.example.math.controller.MathematicsControllerTest.givenEquation_whenGetEquationQuadraticNoneSolution_shouldReturnSolution(MathematicsControllerTest.java:34)
+

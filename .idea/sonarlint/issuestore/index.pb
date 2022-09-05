@@ -15,8 +15,6 @@ t
 Dsrc/main/java/com/example/math/controller/MathematicsController.java,4/b/4b143b2dd476c8efd2c9c2a8f40182bc10a1f389
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-x
-Hsrc/test/java/com/example/math/controller/MathematicsControllerTest.java,a/d/ad2f845364c7a2607c4ca8756a83d9c1ff868183
 “
 csrc/main/java/com/example/math/service/equation/qudratic/none/GetEquationQuadraticNoneResponse.java,0/e/0ef8d9fee6e750f02250f2351d474dbfb29ce12f
 d

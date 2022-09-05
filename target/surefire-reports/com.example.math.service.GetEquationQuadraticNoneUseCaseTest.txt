@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.example.math.service.GetEquationQuadraticNoneUseCaseTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.135 s - in com.example.math.service.GetEquationQuadraticNoneUseCaseTest
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.143 s <<< FAILURE! - in com.example.math.service.GetEquationQuadraticNoneUseCaseTest
+givenEquationWithSpace_whenGetSolution_shouldReturnCorrectSolution  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.String@34b7ac2f<23/7> but was: com.example.math.entity.Term@e056f20<23/7>
+	at com.example.math.service.GetEquationQuadraticNoneUseCaseTest.givenEquationWithSpace_whenGetSolution_shouldReturnCorrectSolution(GetEquationQuadraticNoneUseCaseTest.java:47)
+
+givenEquationWithDenominator_whenGetSolution_shouldReturnCorrectSolution  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.String@635eaaf1<6> but was: com.example.math.entity.Term@5c30a9b0<6>
+	at com.example.math.service.GetEquationQuadraticNoneUseCaseTest.givenEquationWithDenominator_whenGetSolution_shouldReturnCorrectSolution(GetEquationQuadraticNoneUseCaseTest.java:55)
+
+givenEquation_whenGetSolution_shouldReturnCorrectSolution  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: java.lang.String@50a638b5<1> but was: com.example.math.entity.Term@1817d444<1>
+	at com.example.math.service.GetEquationQuadraticNoneUseCaseTest.givenEquation_whenGetSolution_shouldReturnCorrectSolution(GetEquationQuadraticNoneUseCaseTest.java:39)
+
