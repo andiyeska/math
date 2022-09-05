@@ -14,11 +14,11 @@ public class StepTest {
     }
 
     @Test
-    void givenLeftAndRightEquation_whenPrintEquation_shouldReturnCorrectResult() {
-        step.setLeftEquation("a");
-        step.setRightEquation("1");
+    void givenLeftAndRightEquation_whenPrintEquationBefore_shouldReturnCorrectResult() {
+        step.setLeftEquationBefore("a");
+        step.setRightEquationBefore("1");
 
-        Assertions.assertEquals("a=1", step.printEquation());
+        Assertions.assertEquals("a=1", step.printEquationBefore());
     }
 
 }

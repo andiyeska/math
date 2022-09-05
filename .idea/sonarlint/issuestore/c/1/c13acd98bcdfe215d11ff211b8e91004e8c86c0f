@@ -1,0 +1,9 @@
+
+2
+java:S1643k"Use a StringBuilder instead.(æ¢á™
+7
+java:S1643m"Use a StringBuilder instead.(ÍËçÒüÿÿÿÿ
+m
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÌÉ…×ÿÿÿÿÿ
+k
+java:S1201N"UEither override Object.equals(Object), or rename the method to prevent any confusion.(ÿè¨½

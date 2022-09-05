@@ -7,15 +7,17 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Step {
     private String description;
-    private String leftEquation = "0";
-    private String rightEquation = "0";
+    private String leftEquationBefore = "0";
+    private String leftEquationAfter = "0";
+    private String rightEquationBefore = "0";
+    private String rightEquationAfter = "0";
     private String leftOperationBefore;
     private String leftOperationAfter;
     private String rightOperationBefore;
     private String rightOperationAfter;
 
-    public String printEquation() {
-        return leftEquation + "=" + rightEquation;
+    public String printEquationBefore() {
+        return leftEquationBefore + "=" + rightEquationBefore;
     }
 
 }

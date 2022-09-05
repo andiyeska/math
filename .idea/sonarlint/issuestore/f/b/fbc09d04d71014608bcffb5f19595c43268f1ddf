@@ -1,0 +1,7 @@
+
+n	java:S135>"YReduce the total number of break and continue statements in this loop to use at most one.(«ï÷
+f	java:S128+"LEnd this switch case with an unconditional break, return or throw statement.(ªÛÏ†ıÿÿÿÿ
+h
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(á‡Ñå
+T
+java:S11556">Use isEmpty() to check whether the collection is empty or not.(ûÑ¢

@@ -36,7 +36,7 @@ public class GetEquationQuadraticNoneUseCaseTest {
         request.setEquation("2(4x+3)+6=24-4x");
         Solution solution = useCase.getSolution(request).getSolution();
 
-        Assertions.assertEquals("1", solution.getValueByVariable().get("x"));
+        Assertions.assertEquals("1", solution.getTermByVariable().get("x"));
     }
 
     @Test
@@ -44,7 +44,7 @@ public class GetEquationQuadraticNoneUseCaseTest {
         request.setEquation("7x - 2 = 21");
         Solution solution = useCase.getSolution(request).getSolution();
 
-        Assertions.assertEquals("23/7", solution.getValueByVariable().get("x"));
+        Assertions.assertEquals("23/7", solution.getTermByVariable().get("x"));
     }
 
     @Test
@@ -52,7 +52,7 @@ public class GetEquationQuadraticNoneUseCaseTest {
         request.setEquation("x/2+3=x");
         Solution solution = useCase.getSolution(request).getSolution();
 
-        Assertions.assertEquals("6", solution.getValueByVariable().get("x"));
+        Assertions.assertEquals("6", solution.getTermByVariable().get("x"));
     }
 
 }

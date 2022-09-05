@@ -35,7 +35,7 @@ public class GetEquationQuadraticNoneUseCase implements GetEquationQuadraticNone
             doOperation(solution, Operator.DIVIDE, Arrays.asList(coefficientTerm), "Set variable coefficient to 1");
         }
 
-        solution.addValueOfVariable(solution.getLeftTerms().get(0).printDecimal(), solution.getRightTerms().get(0).printFraction());
+        solution.addTermOfVariable(solution.getLeftTerms().get(0).printDecimal(), solution.getRightTerms().get(0));
     }
 
     private void moveDigitAndVariable(Solution solution) {
@@ -49,8 +49,8 @@ public class GetEquationQuadraticNoneUseCase implements GetEquationQuadraticNone
 
         Step step = new Step();
         step.setDescription(description);
-        step.setLeftEquation(Term.printTerms(solution.getLeftTerms()));
-        step.setRightEquation(Term.printTerms(solution.getRightTerms()));
+        step.setLeftEquationBefore(Term.printTerms(solution.getLeftTerms()));
+        step.setRightEquationBefore(Term.printTerms(solution.getRightTerms()));
         step.setLeftOperationBefore(leftOperation.printFraction());
         step.setRightOperationBefore(rightOperation.printFraction());
 

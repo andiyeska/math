@@ -64,9 +64,9 @@ public class SolutionTest {
         leftSolution.merge(rightSolution);
 
         Assertions.assertEquals(3, leftSolution.getSteps().size());
-        Assertions.assertEquals("2(4x+3)+6=2(24-4x)", leftSolution.getSteps().get(0).printEquation());
-        Assertions.assertEquals("8x+6+6=2(24-4x)", leftSolution.getSteps().get(1).printEquation());
-        Assertions.assertEquals("8x+12=2(24-4x)", leftSolution.getSteps().get(2).printEquation());
+        Assertions.assertEquals("2(4x+3)+6=2(24-4x)", leftSolution.getSteps().get(0).printEquationBefore());
+        Assertions.assertEquals("8x+6+6=2(24-4x)", leftSolution.getSteps().get(1).printEquationBefore());
+        Assertions.assertEquals("8x+12=2(24-4x)", leftSolution.getSteps().get(2).printEquationBefore());
     }
 
 }

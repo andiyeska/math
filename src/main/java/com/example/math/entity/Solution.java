@@ -15,10 +15,10 @@ public class Solution {
     private List<Step> steps = new ArrayList<>();
     private List<Term> leftTerms = new ArrayList<>();
     private List<Term> rightTerms = new ArrayList<>();
-    private Map<String, String> valueByVariable = new HashMap<>();
+    private Map<String, Term> termByVariable = new HashMap<>();
 
-    public void addValueOfVariable(String variable, String value) {
-        valueByVariable.put(variable, value);
+    public void addTermOfVariable(String variable, Term term) {
+        termByVariable.put(variable, term);
     }
 
     public void addStep(Step step) {
@@ -30,8 +30,9 @@ public class Solution {
         if(!steps.isEmpty()) {
             for (int i = steps.size() - 1; i >= 0; i--) {
                 Step step = steps.get(i);
+                step.setLeftEquationAfter(equation);
                 equation = equation.replace(step.getLeftOperationAfter(), step.getLeftOperationBefore());
-                step.setLeftEquation(equation);
+                step.setLeftEquationBefore(equation);
             }
         }
     }
@@ -41,19 +42,22 @@ public class Solution {
         rightTerms = rightSolution.getLeftTerms();
 
         String rightEquation = rightSolution.getEquation();
-        if(!rightSolution.getSteps().isEmpty()) rightEquation = rightSolution.getSteps().get(0).getLeftEquation();
+        if(!rightSolution.getSteps().isEmpty()) rightEquation = rightSolution.getSteps().get(0).getLeftEquationBefore();
         for (Step step : steps) {
-            step.setRightEquation(rightEquation);
+            step.setRightEquationBefore(rightEquation);
+            step.setRightEquationAfter(rightEquation);
         }
         String leftEquation = "0";
         if(!steps.isEmpty()) {
             Step step = steps.get(steps.size() - 1);
-            leftEquation = step.getLeftEquation().replace(step.getLeftOperationBefore(), step.getLeftOperationAfter());
+            leftEquation = step.getLeftEquationBefore().replace(step.getLeftOperationBefore(), step.getLeftOperationAfter());
         }
 
         for (Step step : rightSolution.getSteps()) {
-            step.setRightEquation(step.getLeftEquation());
-            step.setLeftEquation(leftEquation);
+            step.setRightEquationBefore(step.getLeftEquationBefore());
+            step.setRightEquationAfter(step.getLeftEquationAfter());
+            step.setLeftEquationBefore(leftEquation);
+            step.setLeftEquationAfter(leftEquation);
             step.setRightOperationBefore(step.getLeftOperationBefore());
             step.setRightOperationAfter(step.getLeftOperationAfter());
             step.setLeftOperationBefore("");
