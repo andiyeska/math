@@ -28,11 +28,11 @@
 
 # API Documentation
 
-## Single Variable None Quadratic Equation
+## Single Variable Non Quadratic Equation
 
 - Path
 ```
-    /mathematics/equation/quadratic/none
+    /mathematics/equation/quadratic/non
 ```
 
 - Method
